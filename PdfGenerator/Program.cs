@@ -5,19 +5,23 @@ using iTextSharp;
 using iTextSharp.text;
 using iTextSharp.text.pdf;
 using System.Collections.Generic;
+using PdfGenerator.Utils;
 
 namespace PdfGenerator
 {
-    class Program : IPdfPTableEvent
+    class Program
     {
 
         List<ItemModel> items  = new List<ItemModel>();
         List<PdfPCell> cells = new List<PdfPCell>();
         public float[] directoryColumnWidths = { 50, 525 };
+        PdfPageEventHelper events = new PdfPageEventHelper();
         static void Main(string[] args)
         {
             Program p =  new Program();
             p.printPdf();
+            Base64Images img = new Base64Images();
+            img.LoadJson();
         }
 
         public void printPdf()
@@ -28,9 +32,9 @@ namespace PdfGenerator
             // Open the document to enable you to write to the document  
             document.Open();
             PdfPTable printedInfoTable = new PdfPTable(1);
-          
             printedInfoTable.WidthPercentage = 109.8f;
-             
+
+            
             PdfPCell printedBy  = new PdfPCell(new Phrase("Printed By : " + "Surya" + "\n\n", FontFactory.GetFont("Helvetica", 11, Font.NORMAL)));
             printedBy.DisableBorderSide( Rectangle.BOTTOM_BORDER);
             printedInfoTable.AddCell(printedBy);
@@ -98,14 +102,6 @@ namespace PdfGenerator
             writer.Close();
             // Always close open filehandles explicity  
             fs.Close();
-        }
-
-        public void TableLayout(PdfPTable table, float[][] widths, float[] heights, int headerRows, int rowStart, PdfContentByte[] canvases)
-        {
-            if(rowStart > 1)
-            {
-
-            }
         }
     }
 }
