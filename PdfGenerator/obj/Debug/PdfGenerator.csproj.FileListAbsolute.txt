@@ -1,0 +1,13 @@
+D:\C#\PdfGenerator\PdfGenerator\bin\Debug\PdfGenerator.exe.config
+D:\C#\PdfGenerator\PdfGenerator\bin\Debug\PdfGenerator.exe
+D:\C#\PdfGenerator\PdfGenerator\bin\Debug\PdfGenerator.pdb
+D:\C#\PdfGenerator\PdfGenerator\bin\Debug\itextsharp.dll
+D:\C#\PdfGenerator\PdfGenerator\bin\Debug\Microsoft.SharePoint.dll
+D:\C#\PdfGenerator\PdfGenerator\bin\Debug\Microsoft.IdentityModel.Extensions.dll
+D:\C#\PdfGenerator\PdfGenerator\bin\Debug\Microsoft.SharePoint.Client.dll
+D:\C#\PdfGenerator\PdfGenerator\bin\Debug\Microsoft.SharePoint.Client.Runtime.dll
+D:\C#\PdfGenerator\PdfGenerator\bin\Debug\itextsharp.xml
+D:\C#\PdfGenerator\PdfGenerator\bin\Debug\Microsoft.SharePoint.xml
+D:\C#\PdfGenerator\PdfGenerator\obj\Debug\PdfGenerator.exe
+D:\C#\PdfGenerator\PdfGenerator\obj\Debug\PdfGenerator.pdb
+D:\C#\PdfGenerator\PdfGenerator\obj\Debug\PdfGenerator.csprojResolveAssemblyReference.cache
