@@ -12,6 +12,12 @@ namespace PdfGenerator
         public string Text { get; set; }
         public int Type { get; set; }
 
+        public enum ContentType
+        {
+            Folder = 1,
+            File  = 2
+        }
+
 
         public ItemModel(string level, string text, int type)
         {

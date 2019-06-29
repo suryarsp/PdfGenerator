@@ -12,3 +12,4 @@ D:\C#\PdfGenerator\PdfGenerator\bin\Debug\Microsoft.SharePoint.xml
 D:\C#\PdfGenerator\PdfGenerator\bin\Debug\Newtonsoft.Json.xml
 D:\C#\PdfGenerator\PdfGenerator\obj\Debug\PdfGenerator.exe
 D:\C#\PdfGenerator\PdfGenerator\obj\Debug\PdfGenerator.pdb
+D:\C#\PdfGenerator\PdfGenerator\obj\Debug\PdfGenerator.csprojResolveAssemblyReference.cache
